@@ -1,0 +1,96 @@
+body {
+  background-color: black;
+  color:white;
+  text-align: center;
+}
+
+.cell {
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  font-size: 1.5em;
+}
+
+table{
+margin-left: 38%;
+}
+/* .formLine {
+  margin:10px;
+  padding:10px;
+  background-color: cornflowerblue;
+} */
+
+.modal {
+  background-color:#9999fcec;
+  display:none;
+  position: absolute;
+  top:200px;
+  left: 42%;
+  padding: 5px;
+  width: 300px;
+  border-radius: 10px;
+
+}
+
+.modal h2{
+  font-size: 50px;
+  color: black;
+}
+/* .modal button{
+  width: 150px;
+  height: 40px;
+  margin-bottom: 15px;
+  border-radius: 10px;
+  background-color:lightgreen;
+  font-size: 24px;
+} */
+
+
+
+
+.bn53 {
+  background-color: #b81515;
+  padding: 7px;
+  width: 100px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  animation: bn53bounce 4s infinite;
+  cursor: pointer;
+  margin-bottom: 15px;
+  font-size: 18px;
+  border-radius: 10px;
+}
+
+@keyframes bn53bounce {
+  5%,
+  50% {
+    transform: scale(1);
+  }
+
+  10% {
+    transform: scale(1);
+  }
+
+  15% {
+    transform: scale(1);
+  }
+
+  20% {
+    transform: scale(1) rotate(-5deg);
+  }
+
+  25% {
+    transform: scale(1) rotate(5deg);
+  }
+
+  30% {
+    transform: scale(1) rotate(-3deg);
+  }
+
+  35% {
+    transform: scale(1) rotate(2deg);
+  }
+
+  40% {
+    transform: scale(1) rotate(0);
+  }
+}
